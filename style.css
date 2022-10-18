@@ -1,44 +1,44 @@
-:root{
---Red: hsl(0, 78%, 62%);
---Cyan: hsl(180, 62%, 55%);
---Orange: hsl(34, 97%, 64%);
---Blue: hsl(212, 86%, 64%);
---Very-Dark-Blue: hsl(234, 12%, 34%);
----Grayish-Blue: hsl(229, 6%, 66%);
---Very-Light-Gray: hsl(0, 0%, 98%);
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  ---Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin: 60px 30px 8px 30px;
   background-color: var(--Very-Light-Gray);
 }
 
-h1{
+h1 {
   font-weight: 200;
   font-size: 1.5rem;
   margin-bottom: 0px;
 }
 
-h2{
+h2 {
   font-weight: 600;
   margin-top: 0px;
 }
 
-p{
+p {
   font-weight: 400;
   color: var(---Grayish-Blue);
   font-size: 1rem;
 }
 
-.container{
+.container {
   display: grid;
-  grid-template-columns: auto ;
+  grid-template-columns: auto;
   margin-top: 70px;
 }
 
-section{
+section {
   text-align: left;
   background-color: #fff;
   margin-bottom: 30px;
@@ -47,123 +47,127 @@ section{
   box-shadow: -5px 5px 20px hsl(229, 6%, 66%);
 }
 
-.textBox{
-padding: 25px 25px 0px 25px ;
+.textBox {
+  padding: 25px 25px 0px 25px;
 }
 
-.textBox h2{
-margin-bottom: 0px;
-}
-.textBox p{
-margin-top: 0px;
+.textBox h2 {
+  margin-bottom: 0px;
 }
 
-img{
+.textBox p {
+  margin-top: 0px;
+}
+
+img {
   float: right;
 }
 
-.colorbox{
+.colorbox {
   border-radius: 10px 10px 0px 0px;
-height: 5px;
+  height: 5px;
 }
 
-.greenBox{
-background-color:var(--Cyan) ;
+.greenBox {
+  background-color: var(--Cyan);
 }
 
-.redBox{
-background-color: var(--Red);
+.redBox {
+  background-color: var(--Red);
 }
 
-.orangeBox{
-background-color: var(--Orange);
+.orangeBox {
+  background-color: var(--Orange);
 }
 
-.blueBox{
-background-color: var(--Blue);
+.blueBox {
+  background-color: var(--Blue);
 }
 
-.TheTeam{
- display: grid;
- gap: 20px;
+.TheTeam {
+  display: grid;
+  gap: 20px;
   background-color: var(--Very-Light-Gray);
   padding-bottom: 0;
-  /* background-color: red; */
+
 }
 
-.teambox, .karmabox{
+.teambox,
+.karmabox {
   box-shadow: -5px 5px 20px hsl(229, 6%, 66%);
   border-radius: 5px;
   padding-bottom: 20px;
 }
 
-.box{
+.box {
   height: 220px;
 }
 
-@media only screen and (min-width: 1000px){
-  
-  body{
+@media only screen and (min-width: 1000px) {
+
+  body {
     margin-top: 30px;
   }
 
-p{
-  max-width: 560px  ;
-  text-align: center;
-  margin: 0 auto;
-}
+  p {
+    max-width: 560px;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-.container{
-  display: flex;
-  height: 500px;
-  width: 80%;
-  margin: 1rem auto;
-}
+  .container {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: 1rem auto;
+  }
 
-section{
-  margin: 20px;
-}
+  section {
+    margin: 20px;
+  }
 
 
-.TheCalculator, .TheSupervisor{
-  height: 210px;
-  width: 30%;
-  align-self: center;
-  
-}
+  .TheCalculator,
+  .TheSupervisor {
+    height: 210px;
+    width: 30%;
+    align-self: center;
 
-.TheTeam{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 92%;
-  width: 30%;
-  background-color: var(--Very-Light-Gray);
-  box-shadow: none;
-  gap: 0;
+  }
 
-}
+  .TheTeam {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92%;
+    width: 30%;
+    background-color: var(--Very-Light-Gray);
+    box-shadow: none;
+    gap: 0;
 
-.box{
-  height: 220px;
-  background-color: #fff;
-}
+  }
 
-.karmabox {
-  margin-top: 20px;
-}
+  .box {
+    height: 220px;
+    background-color: #fff;
+  }
 
-img{
-  margin-top: 20px;
-}
+  .karmabox {
+    margin-top: 20px;
+  }
 
-.textBox p{
-  text-align: left;
-}
+  img {
+    margin-top: 20px;
+  }
 
-.teambox, .karmabox{
-  box-shadow: -5px 5px 20px hsl(229, 6%, 66%);
-  border-radius: 5px;
-}
+  .textBox p {
+    text-align: left;
+  }
+
+  .teambox,
+  .karmabox {
+    box-shadow: -5px 5px 20px hsl(229, 6%, 66%);
+    border-radius: 5px;
+  }
 
 }
